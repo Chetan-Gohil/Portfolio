@@ -153,6 +153,10 @@ span {
   width: 35vw;
   pointer-events: none;
 }
+.shadow {
+  border-radius: 15%;
+  filter: drop-shadow(0.3rem 0.3rem 0.8rem #0ef);
+}
 .heading {
   text-align: center;
   font-size: 4.5rem;
@@ -444,4 +448,7 @@ span {
   .Contact form.input-box input {
     width: 100%;
   }
+}
+.para {
+  color: red;
 }
