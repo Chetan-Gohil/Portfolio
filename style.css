@@ -150,7 +150,7 @@ span {
   background: var(--second-bg-color);
 }
 .about-img {
-  width: 35vw;
+  width: 90vw;
   pointer-events: none;
 }
 .shadow {
@@ -451,4 +451,6 @@ span {
 }
 .para {
   color: red;
+  display: flex;
+  justify-content: center;
 }
